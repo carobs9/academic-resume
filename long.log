@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  22 JUL 2025 09:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  22 JUL 2025 10:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -559,11 +559,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 28.
 LaTeX Font Info:    Trying to load font information for TS1+clm2j on input line
- 67.
+ 70.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/cfr-lm/ts1clm2j.fd
 File: ts1clm2j.fd 2025/02/11 Fontinst v1.933 font definitions for TS1/clm2j.
 )
-Overfull \hbox (20.985pt too wide) in paragraph at lines 117--124
+Overfull \hbox (23.15501pt too wide) in paragraph at lines 120--128
 [][]
  []
 
@@ -587,26 +587,27 @@ Package rerunfilecheck Info: File `long.out' has not changed.
 (rerunfilecheck)             Checksum: 07541360FCA216DA49F1EEDEF86799BD;514.
  ) 
 Here is how much of TeX's memory you used:
- 12366 strings out of 473190
- 194141 string characters out of 5715801
- 629997 words of memory out of 5000000
+ 12368 strings out of 473190
+ 194160 string characters out of 5715801
+ 630997 words of memory out of 5000000
  35414 multiletter control sequences out of 15000+600000
- 599796 words of font info for 68 fonts, out of 8000000 for 9000
+ 600425 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,6n,79p,1243b,505s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/sansmathfonts/cmssbx12.p
-fb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/l
-ocal/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texl
-ive/2025/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2025/t
-exmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/f
-onts/type1/public/lm/lmri10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1
-/public/lm/lmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm
-/lmsy5.pfb>
-Output written on long.pdf (2 pages, 125849 bytes).
+fb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/l
+ocal/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texli
+ve/2025/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2025/t
+exmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2025/texmf-dist/
+fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1
+/public/lm/lmri10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm
+/lmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy5.pfb
+>
+Output written on long.pdf (2 pages, 149328 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
+ 112 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
