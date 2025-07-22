@@ -32,14 +32,15 @@
     \nameskip \break
 }
 
-\newcommand\contact[3]{%
+\newcommand\contact[5]{%
     \centerline{%
         \makebox[0pt][c]{%
-            {#1}~\ \addressSep\ ~{#2}~\ \addressSep\ ~{#3}
+            {#1}~\addressSep~{#2}~\addressSep~{#3}~\addressSep~{#4}~\addressSep~{#5}
         }%
     }%
     \medskip
 }
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % SECTIONS: Create section headings

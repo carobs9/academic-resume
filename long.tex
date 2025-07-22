@@ -2,122 +2,125 @@
 \usepackage[left=0.6in,top=0.6in,right=0.6in,bottom=0.6in]{geometry}
 \usepackage[svgnames]{xcolor}
 \usepackage{hyperref}
-\hypersetup{%
-  colorlinks=true,          % hyperlinks
-  allcolors=DarkRed,%
-  pdfborderstyle={/S/U/W 1} % border style will be underline of width 1pt
+\hypersetup{
+  colorlinks=true,
+  allcolors=DarkRed,
+  pdfborderstyle={/S/U/W 1}
 }
 
 \usepackage{vwcol}
 \usepackage{natbib}
-\usepackage{cfr-lm}         % make old style numbers default
+\usepackage{cfr-lm}
 \usepackage{graphicx}
+\usepackage{enumitem}
 
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TITLE SECTION
 \begin{center}
-    \name{Alice Alice}
+    \name{Carolina Brañas}
     \contact
-        {999$\cdot$999$\cdot$9999}
-        {\href{mailto://alice@spaceship.com}{alice@spaceship.com}}
-        {\href{https://alice.ship}{alice.ship}}
+        {(+34)$\cdot$644$\cdot$004$\cdot$477}
+        % {(+45)$\cdot$60$\cdot$90$\cdot$73$\cdot$33}
+        {\href{mailto://carobrasor@gmail.com}{carobrasor@gmail.com}}
+        {\href{https://carobs9.github.io/}{carobs9.github.io}}
+        {\href{https://github.com/carobs9}{github.com/carobs9}}
+        {\href{https://www.linkedin.com/in/carolinabranas/}{linkedin.com/in/carolinabranas}}
 \end{center}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% EDUCATION 
-\section{Education} 
-\begin{content}
-    {\bf Einstein Labs} {M.Sc. Inertial Frames} \hfill {\bf 2021 --} 
-
-    {\bf Lorentz Institution} \hfill {\bf 2017 -- 2020} \\ 
-    {B.Sc. Time Dilation {\em\&} Length Contraction, Minor Simultaneity} \hfill 
-    {\em CGPA: \textpl{4.0/4.0} \quad Dean's List}
-    
-    % \vspace{-.25\baselineskip}
-    % {\em Honours:} If you'd rather list your awards here than in a separate section later, simply write the awards here and comment out that section (and vice versa).
-\sectionlineskip
-\end{content}
-
+\begin{center}
+    Passionate about machine learning, network analysis, natural language processing, and geospatial data science. \\
+    %Keen interest in data visualization and its role in communicating insights effectively.
+\end{center}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RESEARCH EXPERIENCE
-\section{Research Experience}
+\section{EXPERIENCE}
 \begin{content}
 
-    \begin{position}{Relativity Research Group}{May 2020 -- present}{Research intern}{Prof.~Hermann Minkowski}{Institution}
-    \item Participated in experiments involving travelling at very high speeds holding clocks and rulers.
-    \item This is an environment for your positions with 5 fields: research group or topic, date, position name, professor or group, institution. 
+    \begin{position}{University of Copenhagen}{May 2024 -- present}{Research Assistant in Data Science}{Prof.~Jeanet Bentzen}{}
+    \item Contributed to the {\href{https://www.economics.ku.dk/research/externally-funded-research_new/shocking-religion/}{Shocking Religion}} project, analyzing economic effects of religious shocks.
+    \item Constructed and deployed topic modeling solutions with SentenceTransformers and BERTopic; developed LLM-based pipelines using retrieval-augmented generation (RAG) for contextual document analysis.
+    \item Conducted time series analysis and built visualizations to interpret long-term socioeconomic patterns.
+    \item Presented findings through technical reports and presentations tailored to diverse audiences.
+    \item Designed, dockerized, and deployed data solutions; leveraged UCloud to streamline large-scale data processing.
     \end{position}
-    \vspace{-.5\baselineskip}
-    Here's a little comment after a position if you want one (not really recommended).
 
-    \begin{position}{Bathtub Labs}{January 2021 -- present}{Junior Tree Researcher}{}{}
-    \item If you want to remove the second line (professor and institution), simply leave those two fields empty. 
+    \begin{position}{Above Sports}{October 2023 -- May 2024}{Data Scientist}{}{}
+    \item Built computer vision models to improve company’s logo detection tool.
+    \item Collaborated on process automation and product performance enhancements.
+    \end{position}
+
+    \begin{position}{Crescendo Collective}{September 2021 -- May 2022}{Marketing Strategist}{}{}
+    \item Conducted data analysis using Google Analytics and Ads, delivering actionable insights.
+    \item Led market research and supported automation of internal analytics pipelines.
     \end{position}
 
 \sectionlineskip
 \end{content}
-\vspace{-3\medskipamount}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PUBLICATIONS 
-\noindent
-\renewcommand{\refname}{Publications}   % name of the reference section
-\bibliography{biblio.bib}               % bib file
-\bibliographystyle{abbrvnat}            % citation style
-\nocite{*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% EDUCATION 
+\section{EDUCATION} 
+\begin{content}
+    {\bf University of Copenhagen} \hfill {\bf 2022 -- 2024} \\
+    M.Sc. Social Data Science \\
+    {\em Thesis:} {\href{https://carobs9.github.io/segregation-mobility/}{Mobility and income segregation in Madrid, Spain}} \\
+    {\em Elective Courses:}
+    \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+        \item Advanced Machine Learning for Data Science (IT University of Copenhagen)
+        \item Geospatial Data Science (IT University of Copenhagen)
+        \item Advanced Network Science (IT University of Copenhagen)
+        \item Natural Language Processing (Department of Computer Science, DIKU)
+    \end{itemize}
+
+    \medskip
+
+    {\bf Cardinal Stritch University} \hfill {\bf 2018 -- 2022} \\
+    B.Sc. Marketing, Minor in Computer Science \\
+    {\em Dean's List (2018--2022)} \\
+    {\em Best Graduating GPA in Marketing B.Sc. (2022)}
+
+    {\bf Cardinal Stritch University} \hfill {\bf 2018 -- 2022} \\
+    Minor in Computer Science \\
 \sectionlineskip
+\end{content}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% AWARDS
-\section{Awards} 
+\section{AWARDS} 
 \begin{content}
-    \prize[s]{1\textsuperscript{st} place, A Short Prize}{2020}{has its description on the same line and the option is toggled with \texttt{[s]}.}
-    
-    \prize{A Scholarship with a Longer Name}{2020, 2021}{This is the default option and has its description on a separate line. Add as many of these as you would like.}
+    \prize{Dean's List}{2018 -- 2022}{}
+    \prize{Best Graduating GPA of Marketing B.Sc.}{2022}{}
+    \prize{Academic and Athletic Grant Through B.Sc.}{2018 -- 2022}{}
 \sectionlineskip
 \end{content}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PROJECTS
-\section{Projects \textbf{\em\&} Extracurriculars} 
+\section{PROJECTS \textbf{\em\&} EXTRACURRICULARS} 
 \begin{content}
-    
-    \begin{position}{Einstein Institution}{August 1978 -- present}{Experimenter}{}{}
-        \item Stood in many elevators careening towards earth, and travelled into the event horizon of black holes. 
-        \item Further mastered holding clocks and rulers.
-    \end{position}
-    
-    \begin{position}{Seminars on Relativity in Space}{Sept. 2020 -- Jan. 2021}{Organizer}{}{}
-    \item Organizing the 2021 edition of the conference, hosted on a spaceship travelling at .9 of the speed of light.
-    \end{position}
-    
-    \begin{position}{Lorentzian Geometry}{Summer 2020}{\normalfont\href{https://alice.ship/lorentz}{\texttt{alice.ship/lorentz}}}{}{}
-    \item A project description on its own line so that it can be pretty long, though I can't think of what to write here.  
-    \end{position}
-    
-    {\bf Very Simple Project} \enspace {\href{https://alice.ship/lorentz}{\texttt{alice.ship/lorentz}} 
-    {\em A really simple entry with inline description} }
-    \hfill {\bf 2018 -- present}
 
+    \begin{position}{Mobility and Income Segregation in Madrid}{2023}{\href{https://github.com/carobs9/segregation-madrid}{github.com/carobs9/segregation-madrid}}{Master's Thesis project}{}
+    \item Analyzed mobility and income segregation patterns using geospatial data, network analysis, and visual storytelling in Python.
+    \end{position}
+
+   %\begin{position}{LLM PDF Retrieval (RAG)}{2024}{\href{https://github.com/carobs9/llm-pdf-retrieval}{github.com/carobs9/llm-pdf-retrieval}}{}{Personal}
+   %\item Built a retrieval-augmented generation (RAG) pipeline using LLMs to answer questions from PDFs. Focused on preprocessing, chunking, embedding, and vector search.
+   %\end{position}
+
+    \begin{position}{CycleGAN Monet}{2023}{\href{https://github.com/carobs9/CycleGAN_Monet}{github.com/carobs9/CycleGAN\_Monet}}{Academic project for Advanced Machine Learning course}{}
+    \item Trained a CycleGAN model to convert real photos into Monet-style images. Implemented with PyTorch and conducted visual evaluation of stylization results.
+    \end{position}
+    
 \sectionlineskip    
 \end{content}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TECHNICAL SKILLS
-\section{Technical Skills}
+\section{SKILLS}
 \begin{content}
     \begin{tabular}{ @{} >{\bf}l @{\hspace{6ex}} l }
-        Programming Languages & Python, \LaTeX\ {\em \&} \TeX \\
-        Tools \textbf{\em\&} Technologies & Spaceship steering \\
-        Languages & Earth languages
+        Programming Languages & Python (numpy, tensorflow, matplotlib, pytorch), SQL, Bash \\
+        ML \& NLP & Transformers, Topic Modeling (umap, hdbscan, BERTopic), Scikit-learn, Hugging Face \\
+        Geospatial Tools & Geopandas, Rasterio, QGIS \\
+        Cloud/DevOps & UCloud, Docker, Git, Linux, VSCode
     \end{tabular}
 \sectionlineskip
 \end{content}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COURSE WORK
-\section{Selected Course Work}
-\begin{tabular}{l l l}
-        \qquad {\bf Mathematics} & \qquad {\bf Physics} & \qquad {\bf Computer Science} \\[.5\smallskipamount]
-        
-        Analysis Sequence & Classical {\em\&} Quantum Mechanics & H. Algorithms {\em \&} Data Structures \\ 
-        Complex Analysis & Thermal {\em \&} Statistical Physics & Mathematical Foundations of Machine Learning \\
-        Abstract  Algebra & General Relativity & Reinforcement Learning \\
-        Cryptography &  Quantum Field Theory & Probabilistic Analysis of Algorithms 
-\end{tabular}
 
 \end{document}

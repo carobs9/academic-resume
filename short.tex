@@ -1,109 +1,97 @@
 \documentclass{resume}
-% showframe
+% \showframe
 \usepackage[left=0.6in,top=0.6in,right=0.6in,bottom=0.55in]{geometry}
 \usepackage{vwcol}
-\usepackage{cfr-lm}  % make old style numbers default
-% \usepackage{apacite} % citations in APA style
+\usepackage{cfr-lm}  % old-style numbers
 \usepackage{natbib}
 \setlength{\bibsep}{2.5pt}
 \usepackage[svgnames]{xcolor}
 \usepackage{hyperref}
 \hypersetup{%
-  colorlinks=true,% hyperlinks
-  allcolors=DarkRed,%
-  pdfborderstyle={/S/U/W 1}% border style will be underline of width 1pt
+  colorlinks=true,
+  allcolors=DarkRed,
+  pdfborderstyle={/S/U/W 1}
 }
 
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TITLE
 \begin{center}
-    \name{Bob Bob}
+    \name{Carolina Brañas}
     \contact
-        {999$\cdot$999$\cdot$9999}
-        {\href{mailto://bob@spaceship.com}{bob@spaceship.com}}
-        {\href{https://bob.ship}{bob.ship}}
+        {(+34)$\cdot$644$\cdot$004$\cdot$477}
+        {\href{mailto://carobrasor@gmail.com}{carobrasor@gmail.com}}
+        {\href{https://carobs9.github.io/}{carobs9.github.io}}
+        {\href{https://github.com/carobs9}{carobs9}}
+        {\href{https://www.linkedin.com/in/carolinabranas/}{carolinabranas}}
+        {Copenhagen, Denmark}
 \end{center}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% EDUCATION
-\section{Education} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% EDUCATION 
+\section{EDUCATION} 
 \begin{content}
-    {\bf Einstein Labs} {M.Sc. Inertial Frames} \hfill {\bf 2021 --} 
+    {\bf UNIVERSITY OF COPENHAGEN} \hfill {\bf 2022 -- 2025} \\
+    {M.Sc. Social Data Science} \\
+    {\bf \em Thesis:} {\href{https://carobs9.github.io/segregation-mobility/}{Mobility and income segregation in Madrid, Spain.}}
 
-    {\bf Lorentz Institution} \hfill {\bf 2017 -- 2020} \\ 
-    {B.Sc. Time Dilation {\em\&} Length Contraction, Minor Simultaneity} \hfill 
-    {\em CGPA: \textpl{4.0/4.0} \quad Dean's List}
-    
-    \vspace{-.25\baselineskip}
-    
-    {\em Honours:} For the short version of the template, it's better to write your awards here.
-    
-    {\bf \em Technical skills:} Python {\footnotesize (numpy, tensorflow, matplotlib, pandas)}, Java, HTML/CSS, JavaScript (p5.js), C, \LaTeX; Bash, Git; Adobe Photoshop {\em \&} Illustrator, GIMP; Blender.
-\sectionlineskip
+    \medskip
+
+    {\bf CARDINAL STRITCH UNIVERSITY} \hfill {\bf 2018 -- 2022} \\
+    {B.Sc. Marketing, Minor in Computer Science} \\
+    {\em Dean's List (2018--2022)} \\
+    {\em Honours:} Best Graduating GPA of Marketing B.Sc. (2022)
 \end{content}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RESEARCH EXPERIENCE
-\section{Research Experience}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% EXPERIENCE
+\section{EXPERIENCE}
 \begin{content}
 
-    \begin{position}{Relativity Research Group}{May 2020 -- present}{Research intern}{Prof.~Hermann Minkowski}{Institution}
-    \item Participated in experiments involving travelling at very high speeds holding clocks and rulers.
-    \item This is an environment for your positions with 5 fields: research group or topic, date, position name, professor or group, institution. 
-    \end{position}
-    \vspace{-.5\baselineskip}
-    Here's a little comment after a position if you want one (not really recommended).
-
-    \begin{position}{Bathtub Labs}{January 2021 -- present}{Junior Tree Researcher}{}{}
-    \item If you want to remove the second line (professor and institution), simply leave those two fields empty. 
+    \begin{position}{UNIVERSITY OF COPENHAGEN}{May 2024 -- present}{Research Assistant in Data Science}{Prof.~Jeanet Bentzen}
+        \item Working along a team of researchers for the project {\href{https://www.economics.ku.dk/research/externally-funded-research_new/shocking-religion/}{Shocking Religion}}, which examines the impact of religion on economic factors using shocks to religion as natural experiments.
+        \item 
+        \item Applied topic modeling using SentenceTransformers and BERTopic; developed retrieval-augmented generation (RAG) pipelines with LLMs for contextual document analysis.
+        \item Conducted time series analysis on historical data and supported findings with statistical methods and visualizations.
+        \item Communicated results through written reports and presentations to both technical and non-technical audiences.
     \end{position}
 
-\sectionlineskip
+    \begin{position}{ABOVE SPORTS}{October 2023 -- May 2024}{Data Scientist}{}{}
+        \item Collaborated on process automation and product performance improvements.
+        \item Built computer vision models to enhance logo detection systems.
+    \end{position}
+
+    \begin{position}{CRESCENDO COLLECTIVE}{September 2021 -- May 2022}{Marketing Strategist}{}{}
+        \item Conducted analysis using Google Analytics and Google Ads, delivering actionable reports.
+        \item Researched market competition and automated internal processes with the data team.
+    \end{position}
+
 \end{content}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% FIRST COLUMN 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\noindent 
-\begin{minipage}[t]{.41\textwidth} \vspace{0pt}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PUBLICATIONS
-\renewcommand{\refname}{Publications}
-\bibliography{bibshort}
-\bibliographystyle{abbrvnat}
-\nocite{*}
-\sectionlineskip
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SKILLS 
+\section{SKILLS} 
+\begin{content}
+    {\bf PROGRAMMING:} Python {\footnotesize (numpy, tensorflow, matplotlib, pytorch)}, SQL, Bash \\
+    {\bf ML \& NLP:} Transformers, Topic Modeling {\footnotesize (umap, hdbscan, bertopic)}, Scikit-learn, Hugging Face \\
+    {\bf GEOSPATIAL:} Geopandas, Rasterio, QGIS \\
+    {\bf CLOUD / TOOLS:} UCloud, Git, Docker, Linux, VSCode
+\end{content}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% AWARDS
-\section{Awards}
-    \prize{A short prize}{2019, 2020}{If you have space to add this section here, after each prize you need to add a \textbackslash \texttt{medskip} after for spacing.}
-    \medskip
-    
-    \prize{A prize}{2019}{Another description.}
-    
-\sectionlineskip
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECOND COLUMN
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\end{minipage}
-\hfill 
-\begin{minipage}[t]{.57\textwidth} 
-\vspace{0pt} %important vspace to align at the top! don't delete
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PROJECTS
-\subsection{Technical Projects} 
+\section{AWARDS}
 \begin{content}
-    \begin{project}{Einstein Institution}{August 1978 -- present}
-        \item Stood in many elevators careening towards earth, and travelled into the event horizon of black holes. 
-        \item Further mastered holding clocks and rulers.
-    \end{project}
-    
-    \begin{project}{Seminars on Relativity in Space}{Sept. 2020 -- Jan. 2021}
-    \item Organizing the 2021 edition of the conference, hosted on a spaceship travelling at .9 of the speed of light.
-    \end{project}
-    
-    \begin{project}{Lorentzian Geometry}{\normalfont\href{https://bob.ship/lorentz}{\texttt{bob.ship/lorentz}}}
-    \item A project description on its own line so that it can be pretty long, though I can't think of what to write here.  
-    \end{project}
-    
-\end{content}
-\end{minipage}
+    \prize{Dean's List}{2018--2022}{Achieved Dean’s List every semester of B.Sc. for a GPA above 3.5 with at least 12 credits.}
 
+    \prize{Best Graduating GPA of Marketing B.Sc.}{2022}{Graduated with the top GPA (3.8/4.0) in Marketing.}
+
+    \prize{Academic and Athletic Grant}{2018--2022}{Received a full scholarship for academic excellence and soccer performance over four years.}
+\end{content}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% OPTIONAL: PROJECTS
+% Uncomment and fill in if you have real projects to showcase
+% \section{PROJECTS}
+% \begin{content}
+%     \begin{project}{Project Title}{Date}
+%         \item Describe the project and your contribution.
+%     \end{project}
+% \end{content}
 
 \end{document}
