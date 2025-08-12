@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  12 AUG 2025 09:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  12 AUG 2025 10:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -563,11 +563,6 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 35.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 35.
-<profile.jpg, id=28, 1353.055pt x 1457.445pt>
-File: profile.jpg Graphic file (type jpg)
-<use profile.jpg>
-Package pdftex.def Info: profile.jpg  used on input line 39.
-(pdftex.def)             Requested size: 85.35826pt x 91.93515pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 76--86
 
@@ -586,7 +581,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--102
 al/texlive/2025/texmf-dist/fonts/enc/dvips/cfr-lm/t1-clm.enc}{/usr/local/texliv
 e/2025/texmf-dist/fonts/enc/dvips/cfr-lm/dotdigits-clm.enc}{/usr/local/texlive/
 2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2025/texmf
--dist/fonts/enc/dvips/lm/lm-mathit.enc} <./profile.jpg>]
+-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
 
 [2] (./short.aux)
  ***********
@@ -597,13 +592,13 @@ Package rerunfilecheck Info: File `short.out' has not changed.
 (rerunfilecheck)             Checksum: D70B124F9B82C6DE215E2CC0CC8F6108;415.
  ) 
 Here is how much of TeX's memory you used:
- 12037 strings out of 473190
- 188340 string characters out of 5715801
- 621628 words of memory out of 5000000
- 35079 multiletter control sequences out of 15000+600000
+ 12028 strings out of 473190
+ 188151 string characters out of 5715801
+ 620628 words of memory out of 5000000
+ 35070 multiletter control sequences out of 15000+600000
  605820 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,6n,79p,1244b,511s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,5n,79p,1244b,511s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/sansmathfonts/cmssbx12.p
 fb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/l
@@ -614,10 +609,10 @@ s/type1/public/lm/lmr9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publ
 ic/lm/lmri10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy
 10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></us
 r/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
-Output written on short.pdf (2 pages, 399729 bytes).
+Output written on short.pdf (2 pages, 180798 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
+ 111 PDF objects out of 1000 (max. 8388607)
  82 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
