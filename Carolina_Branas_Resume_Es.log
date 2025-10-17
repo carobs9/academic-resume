@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  5 OCT 2025 20:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  15 OCT 2025 19:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -440,12 +440,13 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count294
 \l__pdf_internal_box=\box61
 )
-No file Carolina_Branas_Resume_Es.aux.
+(./Carolina_Branas_Resume_Es.aux)
 \openout1 = `Carolina_Branas_Resume_Es.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/lmm/m/it on input line 19.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
 9.
+
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -542,6 +543,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package hyperref Info: Link coloring ON on input line 19.
+
+(./Carolina_Branas_Resume_Es.out) (./Carolina_Branas_Resume_Es.out)
 \@outlinefile=\write3
 \openout3 = `Carolina_Branas_Resume_Es.out'.
 
@@ -561,7 +564,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 41.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 41.
-<profile.jpg, id=8, 1353.055pt x 1457.445pt>
+<profile.jpg, id=28, 1353.055pt x 1457.445pt>
 File: profile.jpg Graphic file (type jpg)
 <use profile.jpg>
 Package pdftex.def Info: profile.jpg  used on input line 45.
@@ -591,22 +594,15 @@ e/2025/texmf-dist/fonts/enc/dvips/cfr-lm/dotdigits-clm.enc}{/usr/local/texlive/
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-Package rerunfilecheck Warning: File `Carolina_Branas_Resume_Es.out' has change
-d.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Carolina_Branas_Resume_Es.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D70B124F9B82C6DE215E2CC0CC8F6108;415.
+Package rerunfilecheck Info: File `Carolina_Branas_Resume_Es.out' has not chang
+ed.
+(rerunfilecheck)             Checksum: D70B124F9B82C6DE215E2CC0CC8F6108;415.
  ) 
 Here is how much of TeX's memory you used:
- 12024 strings out of 473190
- 188364 string characters out of 5715801
- 621628 words of memory out of 5000000
- 35071 multiletter control sequences out of 15000+600000
+ 12038 strings out of 473190
+ 188685 string characters out of 5715801
+ 622728 words of memory out of 5000000
+ 35079 multiletter control sequences out of 15000+600000
  605820 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,6n,79p,1244b,511s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -620,10 +616,10 @@ s/type1/public/lm/lmr9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publ
 ic/lm/lmri10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy
 10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></us
 r/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
-Output written on Carolina_Branas_Resume_Es.pdf (2 pages, 400338 bytes).
+Output written on Carolina_Branas_Resume_Es.pdf (2 pages, 404389 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 112 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
