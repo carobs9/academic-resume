@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  15 OCT 2025 19:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  17 OCT 2025 13:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -575,7 +575,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--92
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--108
+Underfull \hbox (badness 10000) in paragraph at lines 104--109
 
  []
 
@@ -599,27 +599,28 @@ ed.
 (rerunfilecheck)             Checksum: D70B124F9B82C6DE215E2CC0CC8F6108;415.
  ) 
 Here is how much of TeX's memory you used:
- 12038 strings out of 473190
- 188685 string characters out of 5715801
+ 12042 strings out of 473190
+ 188731 string characters out of 5715801
  622728 words of memory out of 5000000
- 35079 multiletter control sequences out of 15000+600000
- 605820 words of font info for 75 fonts, out of 8000000 for 9000
+ 35080 multiletter control sequences out of 15000+600000
+ 609616 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,6n,79p,1244b,511s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/sansmathfonts/cmssbx12.p
-fb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/l
-ocal/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texli
-ve/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2025/tex
-mf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2025/texmf-dist/font
-s/type1/public/lm/lmr9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publ
-ic/lm/lmri10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy
-10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></us
-r/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
-Output written on Carolina_Branas_Resume_Es.pdf (2 pages, 404389 bytes).
+fb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/l
+ocal/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texli
+ve/2025/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2025/te
+xmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/fo
+nts/type1/public/lm/lmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pu
+blic/lm/lmr9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri
+10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></u
+sr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/local/te
+xlive/2025/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
+Output written on Carolina_Branas_Resume_Es.pdf (2 pages, 427419 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+ 117 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
