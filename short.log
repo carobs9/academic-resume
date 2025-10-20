@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.28)  20 OCT 2025 10:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.28)  20 OCT 2025 10:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -347,8 +347,8 @@ ftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count285
 \l__pdf_internal_box=\box60
-) (Carolina_Branas_Resume_Es.aux)
-\openout1 = `Carolina_Branas_Resume_Es.aux'.
+) (short.aux)
+\openout1 = `short.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
@@ -430,9 +430,9 @@ cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring ON on input line 19.
- (Carolina_Branas_Resume_Es.out) (Carolina_Branas_Resume_Es.out)
+ (short.out) (short.out)
 \@outlinefile=\write3
-\openout3 = `Carolina_Branas_Resume_Es.out'.
+\openout3 = `short.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 27.
@@ -457,26 +457,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--110
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--121
-
- []
-
 [1
 
 {C:/Users/rqg886/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./profile.j
-pg>] [2] (Carolina_Branas_Resume_Es.aux)
+pg>] [2] (short.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-Package rerunfilecheck Info: File `Carolina_Branas_Resume_Es.out' has not chang
-ed.
+Package rerunfilecheck Info: File `short.out' has not changed.
 (rerunfilecheck)             Checksum: D70B124F9B82C6DE215E2CC0CC8F6108;415.
  ) 
 Here is how much of TeX's memory you used:
  10752 strings out of 474486
- 169041 string characters out of 5743283
+ 168701 string characters out of 5743283
  1944542 words of memory out of 5000000
  32891 multiletter control sequences out of 15000+600000
  562467 words of font info for 51 fonts, out of 8000000 for 9000
@@ -496,7 +490,7 @@ y10.pfb><C:/Users/rqg886/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmsy5.pfb><C:/Users/rqg886/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmsy9.pfb><C:/Users/rqg886/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Carolina_Branas_Resume_Es.pdf (2 pages, 383514 bytes).
+Output written on short.pdf (2 pages, 383716 bytes).
 PDF statistics:
  121 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
