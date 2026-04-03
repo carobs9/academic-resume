@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  19 DEC 2025 18:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  12 JAN 2026 17:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -444,17 +444,12 @@ File: profile.jpg Graphic file (type jpg)
 Package pdftex.def Info: profile.jpg  used on input line 44.
 (pdftex.def)             Requested size: 85.35826pt x 91.93515pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--94
+Underfull \hbox (badness 10000) in paragraph at lines 86--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--111
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--122
+Underfull \hbox (badness 10000) in paragraph at lines 108--113
 
  []
 
@@ -464,6 +459,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--122
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./profi
 le.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 118--124
+
+ []
+
+
 
 [2] (./Carolina_Branas_Resume.aux)
  ***********
@@ -495,10 +495,10 @@ xlive/2025/texmf-dist/fonts/type1/public/sansmathfonts/cmssbx12.pfb></usr/local
 texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/te
 xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texl
 ive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Carolina_Branas_Resume.pdf (2 pages, 386807 bytes).
+Output written on Carolina_Branas_Resume.pdf (2 pages, 387529 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
+ 114 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
