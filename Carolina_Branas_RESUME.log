@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  12 JAN 2026 17:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  7 JUN 2026 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -449,7 +449,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--96
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--113
+Underfull \hbox (badness 10000) in paragraph at lines 99--110
 
  []
 
@@ -459,7 +459,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--113
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./profi
 le.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 118--124
+Underfull \hbox (badness 10000) in paragraph at lines 115--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--131
 
  []
 
@@ -495,7 +500,7 @@ xlive/2025/texmf-dist/fonts/type1/public/sansmathfonts/cmssbx12.pfb></usr/local
 texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/te
 xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texl
 ive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Carolina_Branas_Resume.pdf (2 pages, 387529 bytes).
+Output written on Carolina_Branas_Resume.pdf (2 pages, 387964 bytes).
 PDF statistics:
  114 PDF objects out of 1000 (max. 8388607)
  82 compressed objects within 1 object stream
