@@ -1,0 +1,114 @@
+% Academic CV (English).
+% Build from the repo root with:  make carolina_branas_cv_english
+
+\documentclass{resume}
+% \showframe
+\usepackage[left=0.6in,top=0.5in,right=0.6in,bottom=0.45in]{geometry}
+\usepackage{vwcol}
+%\usepackage{cfr-lm}  % old-style numbers
+\usepackage{natbib}
+\setlength{\bibsep}{2.5pt}
+\usepackage[svgnames]{xcolor}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\hypersetup{%
+  colorlinks=true,
+  allcolors=DarkRed,
+  pdfborderstyle={/S/U/W 1}
+}
+
+% compact section spacing
+\titlespacing{\section}{0pt}{6pt}{3pt}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TITLE
+\vspace{-2em}
+\begin{minipage}[t]{0.76\textwidth}
+    \raggedright
+    {\Huge \textbf{Carolina Brañas}}\\[0.3em]
+    {\normalsize \textbf{Data Scientist}}\\[0.5em]
+    {\footnotesize
+    Copenhagen, Denmark $\bullet$
+    (+45) 60 90 73 33 $\bullet$
+    \href{mailto:carobrasor@gmail.com}{carobrasor@gmail.com} $\bullet$
+    \href{https://carobs9.github.io/}{carobs9.github.io} \\[0.2em]
+    \href{https://github.com/carobs9}{github.com/carobs9} $\bullet$
+    \href{https://www.linkedin.com/in/carolinabranas/}{linkedin.com/in/carolinabranas} $\bullet$
+    \href{https://huggingface.co/carobs9}{huggingface.co/carobs9}
+    }\\[0.7em]
+    {\small
+    Data scientist with hands-on experience building machine learning and NLP models,
+    designing scalable data workflows, and turning complex data into actionable insights.
+    Interests: machine learning, network analysis, natural language processing, geospatial data.
+    }
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.22\textwidth}
+    \vspace*{0.2em}
+    \begin{flushright}
+        \includegraphics[width=2.7cm]{profile.jpg}
+    \end{flushright}
+\end{minipage}
+\vspace{0.2em}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% EXPERIENCE
+\section{EXPERIENCE}
+\begin{content}
+
+    \begin{position}{Data Science Research Assistant}{Feb 2026 -- Present}{University of Copenhagen, Denmark}{Prof.~Asger Mose Wingender}{}
+        \item Research assistant on the Cataloguing Crop Traits and Breeders Across the OECD 1980--2025 project (financed by the \href{https://www.carlsbergfondet.dk/en/}{Carlsberg Foundation}).
+        \item Building the first large unified database of all new cereal varieties released in the OECD since 1980 -- their traits, breeding history, and the companies that developed them -- to study how the crop innovation system can raise global food supply without expanding cropland.
+        \item Manage a student assistant on the project, coordinating and reviewing their work.
+    \end{position}
+
+    \begin{position}{Data Science Research Assistant}{May 2024 -- Dec 2025}{University of Copenhagen, Denmark}{Prof.~Jeanet Bentzen}{}
+        \item Contributed to the {\href{https://www.economics.ku.dk/research/externally-funded-research_new/shocking-religion/}{Shocking Religion}} project on religion's economic impact, within a multidisciplinary research team.
+        \item Built topic models to uncover thematic trends in text data, and RAG-based LLM pipelines for document insights.
+        \item Computed distances from locations to potential earthquake danger areas for each of the four hazard levels (1--4), using Rasterio, GeoPandas and QGIS.
+        \item Designed and containerized scalable data workflows; handled large-scale data ingestion and preprocessing; deployed on cloud infrastructure (UCloud).
+    \end{position}
+
+    \begin{position}{Data Scientist}{Oct 2023 -- May 2024}{Above Sports, Denmark}{}{}
+        \item Developed computer vision models for brand logo detection.
+        \item Automated data workflows and worked with product teams to refine output quality.
+    \end{position}
+
+    \begin{position}{Marketing Strategist}{Sep 2021 -- May 2022}{Crescendo Collective, United States}{}{}
+        \item Analyzed campaign data (Google Analytics, Google Ads) and automated internal reporting with Python.
+        \item Ran competitor analysis and audience insights with the data team; presented reports to clients and stakeholders.
+    \end{position}
+
+\end{content}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% EDUCATION
+\section{EDUCATION}
+\begin{content}
+    {\bf M.Sc.\ Social Data Science} \hfill {\bf 2022 -- 2024} \\
+    University of Copenhagen, Denmark \\
+    {\bf \em Thesis:} {\href{https://github.com/carobs9/segregation-madrid}{Mobility and income segregation in Madrid, Spain.}} \\
+    {\small {\em Electives:} Advanced Machine Learning for Data Science, Geospatial Data Science, Advanced Network Science (ITU); Natural Language Processing (DIKU).} \\[0.4em]
+    {\bf B.Sc.\ Marketing, Computer Science Minor} \hfill {\bf 2018 -- 2022} \\
+    Cardinal Stritch University, United States \\
+    {\small {\em Honours:} Magna Cum Laude, Dean's List (2018--2022), best graduating GPA of Marketing B.Sc.\ (2022).}
+\end{content}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SKILLS
+\section{SKILLS}
+\begin{content}
+    {\bf Programming \& Data:} Python {\footnotesize (pandas, numpy, pytorch, tensorflow, scikit-learn)}, SQL, Bash, \LaTeX \\
+    {\bf Machine Learning \& NLP:} Transformers, topic modeling {\footnotesize (UMAP, HDBSCAN, BERTopic)}, Hugging Face, Weights \& Biases, deep learning, predictive modeling, feature engineering, computer vision \\
+    {\bf Analysis, Visualization \& Geospatial:} statistical analysis, data wrangling, Matplotlib, Seaborn, Tableau, Power BI, Geopandas, Rasterio, QGIS \\
+    {\bf Cloud \& DevOps:} Docker, Git, Linux, AWS, Azure, UCloud, CI/CD \\
+    {\bf Languages:} Spanish {\footnotesize (native)}, Galician {\footnotesize (native)}, English {\footnotesize (professional proficiency)}, Danish {\footnotesize (beginner)}
+\end{content}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% AWARDS
+\section{AWARDS}
+\begin{content}
+    \prize[s]{Dean's List}{2018--2022}{{\small every semester of the B.Sc., for a GPA above 3.5}} \\
+    \prize[s]{Best Graduating GPA of Marketing B.Sc.}{2022}{{\small highest GPA in Marketing, class of 2022}} \\
+    \prize[s]{Academic and Athletic Grant}{2018--2022}{{\small full four-year scholarship for academic excellence and soccer}}
+\end{content}
+
+\end{document}

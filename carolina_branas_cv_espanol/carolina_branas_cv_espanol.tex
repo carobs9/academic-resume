@@ -1,0 +1,114 @@
+% CV académico (español).
+% Compilar desde la raíz del repositorio con:  make carolina_branas_cv_espanol
+
+\documentclass{resume}
+\usepackage[left=0.6in,top=0.5in,right=0.6in,bottom=0.45in]{geometry}
+\usepackage{vwcol}
+\usepackage{natbib}
+\setlength{\bibsep}{2.5pt}
+\usepackage[svgnames]{xcolor}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\hypersetup{%
+  colorlinks=true,
+  allcolors=DarkRed,
+  pdfborderstyle={/S/U/W 1}
+}
+
+% espaciado de secciones compacto
+\titlespacing{\section}{0pt}{6pt}{3pt}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TÍTULO
+\vspace*{-2em}
+
+\begin{minipage}[t]{0.76\textwidth}
+    \raggedright
+    {\Huge \textbf{Carolina Brañas}}\\[0.3em]
+    {\normalsize \textbf{Científica de Datos}}\\[0.5em]
+    {\footnotesize
+    A Coruña, España $\bullet$
+    (+34) 644 004 477 $\bullet$
+    \href{mailto:carobrasor@gmail.com}{carobrasor@gmail.com} $\bullet$
+    \href{https://carobs9.github.io/}{carobs9.github.io} \\[0.2em]
+    \href{https://github.com/carobs9}{github.com/carobs9} $\bullet$
+    \href{https://www.linkedin.com/in/carolinabranas/}{linkedin.com/in/carolinabranas} $\bullet$
+    \href{https://huggingface.co/carobs9}{huggingface.co/carobs9}
+    }\\[0.7em]
+    {\small
+    Científica de datos con experiencia práctica en modelos de aprendizaje automático y
+    procesamiento del lenguaje natural (NLP), diseño de flujos de datos escalables y
+    conversión de datos complejos en información accionable.
+    Intereses: aprendizaje automático, análisis de redes, NLP y datos geoespaciales.
+    }
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.22\textwidth}
+    \vspace*{0.2em}
+    \begin{flushright}
+        \includegraphics[width=2.7cm,clip,trim=0 0 0 0]{profile.jpg}
+    \end{flushright}
+\end{minipage}
+\vspace{0.2em}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% EXPERIENCIA
+\section{EXPERIENCIA}
+\begin{content}
+
+    \begin{position}{Asistente de Investigación, Data Manager}{Feb 2026 -- Presente}{Universidad de Copenhague, Dinamarca}{Prof.~Asger Mose Wingender}{}
+        \item Contribuyo al proyecto {\href{https://www.carlsbergfondet.dk/en/what-we-have-funded/cf25-1677/}{Cataloguing Crop Traits and Breeders Across the OECD 1980-2025}}, financiado por la Carlsberg Foundation.
+        \item Gestiono la creación del primer repositorio unificado de variedades de cereal registradas en la OCDE desde 1980, con sus características, historial de mejora genética y las empresas que las desarrollaron.
+        \item Gestiono a un estudiante de apoyo en el proyecto, coordinando y revisando su trabajo.
+    \end{position}
+
+    \begin{position}{Asistente de Investigación, Ciencia de Datos}{Mayo 2024 -- Dic 2025}{Universidad de Copenhague, Dinamarca}{Prof.~Jeanet Bentzen}{}
+        \item Contribuí al proyecto {\href{https://www.economics.ku.dk/research/externally-funded-research_new/shocking-religion/}{Shocking Religion}} sobre el impacto económico de la religión, dentro de un equipo multidisciplinar.
+        \item Desarrollé modelos de temas para descubrir tendencias temáticas en datos textuales y flujos basados en LLM y RAG para la extracción de información en documentos.
+        \item Calculé distancias desde distintas ubicaciones hasta posibles zonas de peligro sísmico para cada uno de los cuatro niveles de riesgo (1--4), con Rasterio, GeoPandas y QGIS.
+        \item Diseñé y contenedoricé flujos de datos escalables (Docker); gestioné la ingesta y el preprocesamiento a gran escala; desplegué en infraestructura en la nube (UCloud).
+    \end{position}
+
+    \begin{position}{Científica de Datos}{Oct 2023 -- Mayo 2024}{Above Sports, Dinamarca}{}{}
+        \item Desarrollé modelos de computer vision para la detección de logotipos de marca en vídeo.
+        \item Automaticé y contenedoricé flujos de datos, y colaboré con los equipos de producto para refinar la calidad de los resultados.
+    \end{position}
+
+    \begin{position}{Estratega de Marketing}{Sep 2021 -- Mayo 2022}{Crescendo Collective, Estados Unidos}{}{}
+        \item Analicé datos de campañas (Google Analytics, Google Ads) y automaticé informes internos con Python.
+        \item Realicé análisis de competencia y de audiencias con el equipo de datos; presenté informes a clientes.
+    \end{position}
+
+\end{content}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% EDUCACIÓN
+\section{EDUCACIÓN}
+\begin{content}
+    {\bf M.Sc.\ en Ciencia de Datos Sociales} \hfill {\bf 2022 -- 2024} \\
+    Universidad de Copenhague, Dinamarca \\
+    {\bf \em Tesis:} {\href{https://github.com/carobs9/segregation-madrid}{Movilidad y segregación por ingresos en Madrid, España.}} \\
+    {\small {\em Optativas:} Aprendizaje Automático Avanzado, Ciencia de Datos Geoespaciales, Ciencia de Redes Avanzada (ITU); Procesamiento del Lenguaje Natural (DIKU).} \\[0.4em]
+    {\bf B.Sc.\ en Marketing, Minor en Ingeniería Informática} \hfill {\bf 2018 -- 2022} \\
+    Cardinal Stritch University, Estados Unidos \\
+    {\small {\em Honores:} Magna Cum Laude, Lista del Decano (2018--2022), mejor promedio del grado en Marketing (2022).}
+\end{content}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% HABILIDADES
+\section{HABILIDADES}
+\begin{content}
+    {\bf Programación y Datos:} Python {\footnotesize (pandas, numpy, pytorch, tensorflow, scikit-learn)}, SQL, Bash, \LaTeX \\
+    {\bf Aprendizaje Automático y NLP:} Transformers, topic modeling {\footnotesize (UMAP, HDBSCAN, BERTopic)}, Hugging Face, Weights \& Biases, deep learning, modelos predictivos, feature engineering, computer vision \\
+    {\bf Análisis, Visualización y Geoespacial:} análisis estadístico, tratamiento de datos, Matplotlib, Seaborn, Tableau, Power BI, Geopandas, Rasterio, QGIS \\
+    {\bf Cloud y DevOps:} Docker, Git, Linux, AWS, Azure, UCloud, CI/CD \\
+    {\bf Idiomas:} español {\footnotesize (nativo)}, gallego {\footnotesize (nativo)}, inglés {\footnotesize (competencia profesional)}, danés {\footnotesize (principiante)}
+\end{content}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PREMIOS
+\section{PREMIOS}
+\begin{content}
+    \prize[s]{Lista del Decano}{2018--2022}{{\small todos los semestres del grado, por un promedio superior a 3.5/4.0}} \\
+    \prize[s]{Mejor Promedio del B.Sc.\ en Marketing}{2022}{{\small promedio más alto de la promoción 2022}} \\
+    \prize[s]{Beca Académica y Deportiva}{2018--2022}{{\small beca completa de cuatro años por excelencia académica y fútbol}}
+\end{content}
+
+\end{document}

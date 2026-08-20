@@ -1,0 +1,128 @@
+% CV targeted at the PhD fellowship in Machine Learning for Environmental Sciences,
+% DIKU Machine Learning Section / Global Wetland Center, University of Copenhagen.
+% Principal supervisor Prof. Christian Igel, co-supervisor Asst. Prof. Nico Lang.
+% Posting: https://employment.ku.dk/phd/?show=165934  (deadline 2 August 2026)
+%
+% Build from the repo root with:  make carolina_branas_cv_phd
+
+\documentclass{resume}
+\usepackage[left=0.6in,top=0.45in,right=0.6in,bottom=0.35in]{geometry}
+\usepackage{vwcol}
+\usepackage{natbib}
+\setlength{\bibsep}{2.5pt}
+\usepackage[svgnames]{xcolor}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\hypersetup{%
+  colorlinks=true,
+  allcolors=DarkRed,
+  pdfborderstyle={/S/U/W 1}
+}
+
+% section spacing: {left indent}{space before}{space after}
+\titlespacing{\section}{5pt}{8pt}{4pt}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TITLE
+\vspace{-2em}
+\begin{minipage}[t]{0.76\textwidth}
+    \raggedright
+    {\Huge \textbf{Carolina Brañas}}\\[0.3em]
+    {\normalsize \textbf{Data Scientist $\vert$ Machine Learning \& Geospatial Data}}\\[0.5em]
+    {\footnotesize
+    Copenhagen, Denmark $\bullet$
+    (+45) 60 90 73 33 $\bullet$
+    \href{mailto:carobrasor@gmail.com}{carobrasor@gmail.com} $\bullet$
+    \href{https://carobs9.github.io/}{carobs9.github.io} \\[0.2em]
+    \href{https://github.com/carobs9}{github.com/carobs9} $\bullet$
+    \href{https://www.linkedin.com/in/carolinabranas/}{linkedin.com/in/carolinabranas} $\bullet$
+    %\href{https://huggingface.co/carobs9}{huggingface.co/carobs9}
+    }\\[0.7em]
+    {\small
+    Data scientist with an M.Sc.\ in Social Data Science and two years of research experience
+    at the University of Copenhagen. Experience with machine learning and geospatial data (raster
+    and vector processing with Rasterio, GeoPandas and QGIS). Research experience helped me become more
+    creative by taking open-ended problems, framing them and finding solutions that work.
+    }
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.22\textwidth}
+    \vspace*{0.2em}
+    \begin{flushright}
+        \includegraphics[width=2.7cm]{profile.jpg}
+    \end{flushright}
+\end{minipage}
+\vspace{0.2em}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RESEARCH INTERESTS
+\section{RESEARCH INTERESTS}
+\begin{content}
+    {\small
+    Deep learning, environmental data and climate change, geospatial data, self-supervised
+    learning (previous experience with clustering techniques), and the development of new global-scale
+    datasets.
+    }
+\end{content}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% EDUCATION
+\section{EDUCATION}
+\begin{content}
+    {\bf M.Sc.\ Social Data Science} \hfill {\bf 2022 -- 2024} \\
+    University of Copenhagen, Denmark \\
+    {\bf \em Thesis:} {\href{https://github.com/carobs9/segregation-madrid}{Mobility and income segregation in Madrid, Spain.}} {\small Used GeoPandas to join Madrid's district geometries to income data, derive inter-district distances for origin--destination matrices from a month of MITMA trip records, build the spatial weights for Global and Local Moran's I, and map segregation patterns; plus network analysis of the mobility graph.}  \\
+    {\small {\em Relevant Courses:} Advanced Machine Learning, Geospatial Data Science, Advanced Network Science (ITU); NLP (DIKU).} \\[0.3em]
+    {\bf B.Sc.\ Marketing, Computer Science Minor} \hfill {\bf 2018 -- 2022} \\
+    Cardinal Stritch University, United States \\
+    {\small {\em Honours:} Magna Cum Laude, Dean's List every semester, best graduating GPA of Marketing B.Sc.\ (2022), full four-year academic and athletic scholarship.} \\
+    {\small {\em Relevant Courses:} Object-Oriented Programming, Computer Architecture, Structured Programming, Introduction to Artificial Intelligence.}
+\end{content}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RESEARCH EXPERIENCE
+\section{RESEARCH \& PROFESSIONAL EXPERIENCE}
+\begin{content}
+
+    \begin{position}{Data Science Research Assistant}{Feb 2026 -- Present}{University of Copenhagen, Denmark}{Prof.~Asger Mose Wingender}{}
+        \item Building a new dataset for Cataloguing Crop Traits and Breeders Across the OECD 1980--2025 (\href{https://www.carlsbergfondet.dk/en/}{Carlsberg Foundation}): the first unified record of every cereal variety released in the OECD since 1980, with traits, breeding history and the companies behind them.
+        \item Own the data model and ingestion workflow consolidating heterogeneous national registries into one analysis-ready dataset; manage a student assistant on the project, coordinating and reviewing their work.
+    \end{position}
+
+    \begin{position}{Data Science Research Assistant}{May 2024 -- Dec 2025}{University of Copenhagen, Denmark}{Prof.~Jeanet Bentzen}{}
+        \item Contributed to the {\href{https://www.economics.ku.dk/research/externally-funded-research_new/shocking-religion/}{Shocking Religion}} project on religion's economic impact, in a multidisciplinary team.
+        \item Computed distances from locations on Earth to potential earthquake danger areas for each of the four hazard levels (1--4): rasters in Rasterio, nearest-distance operations in GeoPandas, mapping in QGIS.
+        \item Built topic models over large text corpora and RAG-based LLM pipelines for document insights.
+        \item Containerized scalable data workflows (Docker) and ran large-scale ingestion and preprocessing on cloud infrastructure (UCloud, GPU compute).
+    \end{position}
+
+    \begin{position}{Data Scientist}{Oct 2023 -- May 2024}{Above Sports, Denmark}{}{}
+        \item Developed deep learning computer vision models for brand logo detection in sports footage.
+        \item Automated and dockerized data workflows for reproducible training and inference runs.
+    \end{position}
+
+    \begin{position}{Marketing Strategist}{Sep 2021 -- May 2022}{Crescendo Collective, United States}{}{}
+        \item Automated internal reporting with Python and analysed campaign and audience data.
+    \end{position}
+
+\end{content}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SKILLS
+\section{SKILLS}
+\begin{content}
+    {\bf Programming \& Data:} Python {\footnotesize (pytorch, tensorflow, scikit-learn, pandas, numpy, matplotlib)}, SQL, Bash, \LaTeX \\
+    {\bf Machine Learning:} deep learning, computer vision, Transformers, topic modeling {\footnotesize (UMAP, HDBSCAN, BERTopic)}, LLMs \& RAG pipelines, Hugging Face, W\&B \\
+    {\bf Geospatial \& Remote Sensing:} Rasterio, GeoPandas, QGIS, raster \& vector processing, spatial joins, network analysis \\
+    {\bf Cloud \& DevOps:} Docker, Git, Linux, AWS, Azure, UCloud {\footnotesize (GPU compute)}, CI/CD \\
+    {\bf Languages:} Spanish {\footnotesize (native)}, Galician {\footnotesize (native)}, English {\footnotesize (professional proficiency)}, Danish {\footnotesize (beginner)}
+\end{content}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% REFEREES
+% The call asks for a CV listing three referees -- fill in and uncomment before applying.
+\section{REFEREES}
+\begin{content}
+    {\small Currently waiting for references due to the summer break; these will be provided after the application deadline.} \\
+%     {\bf Prof.~Asger Mose Wingender} -- University of Copenhagen, Department of Economics \hfill {\small email} \\
+%     {\bf Prof.~Jeanet Bentzen} -- University of Copenhagen, Department of Economics \hfill {\small email} \\
+%     {\bf Name} -- M.Sc.\ thesis supervisor, University of Copenhagen \hfill {\small email}
+\end{content}
+
+\end{document}

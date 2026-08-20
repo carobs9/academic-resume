@@ -1,0 +1,16 @@
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+.DS_Store
+
+# my CVs (kept locally, not published to the repo)
+branas_cv_all/
+#carolina_branas_cv_english/
+#carolina_branas_cv_espanol/
+carolina_branas_cv_corp_english/
+carolina_branas_cv_corp_espanol/
+#carolina_branas_cv_phd/
+carolina_branas_cv_english_no_pic/
